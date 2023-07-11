@@ -13,6 +13,16 @@
 		1EAB240B2A5CEABE0075C40A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB24092A5CEABE0075C40A /* Main.storyboard */; };
 		1EAB240D2A5CEAC00075C40A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB240C2A5CEAC00075C40A /* Assets.xcassets */; };
 		1EAB24102A5CEAC00075C40A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB240E2A5CEAC00075C40A /* LaunchScreen.storyboard */; };
+		1EAB24222A5CEBF80075C40A /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB24182A5CEBF80075C40A /* nssl0049.jpg */; };
+		1EAB24232A5CEBF80075C40A /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB24192A5CEBF80075C40A /* nssl0046.jpg */; };
+		1EAB24242A5CEBF80075C40A /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB241A2A5CEBF80075C40A /* nssl0091.jpg */; };
+		1EAB24252A5CEBF80075C40A /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB241B2A5CEBF80075C40A /* nssl0045.jpg */; };
+		1EAB24262A5CEBF80075C40A /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB241C2A5CEBF80075C40A /* nssl0051.jpg */; };
+		1EAB24272A5CEBF80075C40A /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB241D2A5CEBF80075C40A /* nssl0041.jpg */; };
+		1EAB24282A5CEBF80075C40A /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB241E2A5CEBF80075C40A /* nssl0042.jpg */; };
+		1EAB24292A5CEBF80075C40A /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB241F2A5CEBF80075C40A /* nssl0043.jpg */; };
+		1EAB242A2A5CEBF80075C40A /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB24202A5CEBF80075C40A /* nssl0033.jpg */; };
+		1EAB242B2A5CEBF80075C40A /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB24212A5CEBF80075C40A /* nssl0034.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		1EAB240C2A5CEAC00075C40A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EAB240F2A5CEAC00075C40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EAB24112A5CEAC00075C40A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAB24182A5CEBF80075C40A /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
+		1EAB24192A5CEBF80075C40A /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
+		1EAB241A2A5CEBF80075C40A /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
+		1EAB241B2A5CEBF80075C40A /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0045.jpg; sourceTree = "<group>"; };
+		1EAB241C2A5CEBF80075C40A /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
+		1EAB241D2A5CEBF80075C40A /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
+		1EAB241E2A5CEBF80075C40A /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
+		1EAB241F2A5CEBF80075C40A /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
+		1EAB24202A5CEBF80075C40A /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
+		1EAB24212A5CEBF80075C40A /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +82,28 @@
 				1EAB24092A5CEABE0075C40A /* Main.storyboard */,
 				1EAB240C2A5CEAC00075C40A /* Assets.xcassets */,
 				1EAB240E2A5CEAC00075C40A /* LaunchScreen.storyboard */,
+				1EAB24172A5CEBF80075C40A /* Content */,
 				1EAB24112A5CEAC00075C40A /* Info.plist */,
 			);
 			path = Project01;
+			sourceTree = "<group>";
+		};
+		1EAB24172A5CEBF80075C40A /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				1EAB24182A5CEBF80075C40A /* nssl0049.jpg */,
+				1EAB24192A5CEBF80075C40A /* nssl0046.jpg */,
+				1EAB241A2A5CEBF80075C40A /* nssl0091.jpg */,
+				1EAB241B2A5CEBF80075C40A /* nssl0045.jpg */,
+				1EAB241C2A5CEBF80075C40A /* nssl0051.jpg */,
+				1EAB241D2A5CEBF80075C40A /* nssl0041.jpg */,
+				1EAB241E2A5CEBF80075C40A /* nssl0042.jpg */,
+				1EAB241F2A5CEBF80075C40A /* nssl0043.jpg */,
+				1EAB24202A5CEBF80075C40A /* nssl0033.jpg */,
+				1EAB24212A5CEBF80075C40A /* nssl0034.jpg */,
+			);
+			name = Content;
+			path = "../../../../../Downloads/HackingWithSwift-main/Classic/project1-files/Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +164,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EAB24232A5CEBF80075C40A /* nssl0046.jpg in Resources */,
+				1EAB242A2A5CEBF80075C40A /* nssl0033.jpg in Resources */,
+				1EAB24262A5CEBF80075C40A /* nssl0051.jpg in Resources */,
+				1EAB24242A5CEBF80075C40A /* nssl0091.jpg in Resources */,
+				1EAB24292A5CEBF80075C40A /* nssl0043.jpg in Resources */,
+				1EAB242B2A5CEBF80075C40A /* nssl0034.jpg in Resources */,
+				1EAB24222A5CEBF80075C40A /* nssl0049.jpg in Resources */,
+				1EAB24272A5CEBF80075C40A /* nssl0041.jpg in Resources */,
+				1EAB24282A5CEBF80075C40A /* nssl0042.jpg in Resources */,
 				1EAB24102A5CEAC00075C40A /* LaunchScreen.storyboard in Resources */,
 				1EAB240D2A5CEAC00075C40A /* Assets.xcassets in Resources */,
+				1EAB24252A5CEBF80075C40A /* nssl0045.jpg in Resources */,
 				1EAB240B2A5CEABE0075C40A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
