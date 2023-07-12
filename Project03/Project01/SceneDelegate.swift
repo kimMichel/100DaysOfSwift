@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Project03
+//  Project01
 //
-//  Created by Michel Jaejin Kim on 12/07/23.
+//  Created by Michel Jaejin Kim on 10/07/23.
 //
 
 import UIKit
