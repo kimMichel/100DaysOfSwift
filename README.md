@@ -12,3 +12,4 @@ Também irei deixar alguns insights que tive durante o dia enquanto estudava os 
 
    * Alguns desenvolvedores tentam escrever códigos para lidar com erros catastróficos em tempo de execução, mas infelizmente, com muita frequência, eles apenas mascaram o problema real que ocorreu. O importante é corrigir os erros e nao apenas mascarar eles.
 
+2. Projeto 02
