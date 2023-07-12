@@ -11,3 +11,9 @@ Também irei deixar alguns insights que tive durante o dia enquanto estudava os 
 1. Projeto 01
 2. Projeto 02
 3. Projeto 03
+
+## Web views, user input, e Auto Layout
+
+Os próximos três projetos que estamos analisando irão aprimorar ainda mais suas habilidades de iOS à medida que você cria algumas interfaces de usuário em código, gerencia as visualizações de tabela com mais cuidado e ganha experiência com closures.
+
+4. Projeto 04
