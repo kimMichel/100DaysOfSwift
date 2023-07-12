@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     var countries = [String]()
     var score = 0
     var correctAnswer = 0
+    var questionNumber = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,11 +42,15 @@ class ViewController: UIViewController {
         button2.setImage(UIImage(named: countries[1]), for: .normal)
         button3.setImage(UIImage(named: countries[2]), for: .normal)
         
-        title = countries[correctAnswer].uppercased()
+        title = "\(countries[correctAnswer].uppercased()) score: \(score)"
     }
     
     @IBAction func buttonPressed(_ sender: UIButton) {
         var title: String
+        var actionTitle: String
+        var message: String
+        
+        questionNumber += 1
         
         if sender.tag == correctAnswer {
             title = "Correct"
@@ -55,9 +60,23 @@ class ViewController: UIViewController {
             score -= 1
         }
         
-        let ac = UIAlertController(title: title, message: "Your score is \(score)", preferredStyle: .alert)
+        if questionNumber == 10 {
+            message = "Final score: \(score)"
+            actionTitle = "Restart"
+            questionNumber = 0
+            score = 0
+        } else {
+            message = """
+            Question number: \(questionNumber)\n
+            Wrong! That's flag of \(countries[sender.tag].uppercased())
+            """
+            actionTitle = "Continue"
+        }
         
-        ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
+        let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
+
+        
+        ac.addAction(UIAlertAction(title: actionTitle, style: .default, handler: askQuestion))
         
         present(ac, animated: true)
     }
