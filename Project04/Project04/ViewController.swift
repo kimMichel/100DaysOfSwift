@@ -11,7 +11,7 @@ import WebKit
 class ViewController: UIViewController, WKNavigationDelegate{
     var webView: WKWebView!
     var progressView: UIProgressView!
-    var websites = ["apple.com", "hackingwithswift.com"]
+    var websites = ["apple.com", "hackingwithswift.com", "invalidUrl"]
     
     override func loadView() {
         webView = WKWebView()
@@ -57,6 +57,13 @@ class ViewController: UIViewController, WKNavigationDelegate{
     func openPage(action: UIAlertAction) {
         guard let actionTitle = action.title else { return }
         guard let url = URL(string: "https://" + actionTitle) else { return }
+        
+        if actionTitle == "invalidUrl" {
+            let ac = UIAlertController(title: "Blocked", message: "This URL it's blocked", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+            present(ac, animated: true)
+            return
+        }
         
         webView.load(URLRequest(url: url))
     }
