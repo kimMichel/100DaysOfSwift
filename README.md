@@ -17,3 +17,4 @@ Também irei deixar alguns insights que tive durante o dia enquanto estudava os 
 Os próximos três projetos que estamos analisando irão aprimorar ainda mais suas habilidades de iOS à medida que você cria algumas interfaces de usuário em código, gerencia as visualizações de tabela com mais cuidado e ganha experiência com closures.
 
 4. Projeto 04
+5. Projeto 05
