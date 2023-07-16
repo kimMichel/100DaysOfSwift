@@ -18,6 +18,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ELU-rn-Mcr">
                                 <rect key="frame" x="84.666666666666686" y="100" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ELU-rn-Mcr" secondAttribute="height" multiplier="112:57" id="KcD-4F-9G1"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -26,6 +29,9 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVx-Xg-YEc">
                                 <rect key="frame" x="84.666666666666686" y="244" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fVx-Xg-YEc" secondAttribute="height" multiplier="112:57" id="IwJ-A6-esq"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="uk"/>
                                 <connections>
@@ -34,6 +40,9 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pep-f5-JTw">
                                 <rect key="frame" x="84.666666666666686" y="388" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Pep-f5-JTw" secondAttribute="height" multiplier="112:57" id="9AW-jT-1Jw"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="spain"/>
                                 <connections>
@@ -47,8 +56,11 @@
                             <constraint firstItem="ELU-rn-Mcr" firstAttribute="centerX" secondItem="L91-nO-31K" secondAttribute="centerX" id="1nc-6z-1au"/>
                             <constraint firstItem="L91-nO-31K" firstAttribute="top" secondItem="ELU-rn-Mcr" secondAttribute="top" constant="3" id="6Cu-QN-wCK"/>
                             <constraint firstItem="Pep-f5-JTw" firstAttribute="top" secondItem="fVx-Xg-YEc" secondAttribute="bottom" constant="30" id="CMQ-oe-8JI"/>
+                            <constraint firstItem="L91-nO-31K" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Pep-f5-JTw" secondAttribute="bottom" constant="20" id="M7w-4e-9xZ"/>
                             <constraint firstItem="Pep-f5-JTw" firstAttribute="centerX" secondItem="fVx-Xg-YEc" secondAttribute="centerX" id="Wsy-Bi-GF8"/>
+                            <constraint firstItem="fVx-Xg-YEc" firstAttribute="height" secondItem="ELU-rn-Mcr" secondAttribute="height" id="ZEY-YF-H72"/>
                             <constraint firstItem="fVx-Xg-YEc" firstAttribute="top" secondItem="ELU-rn-Mcr" secondAttribute="bottom" constant="30" id="ppt-Z4-PBd"/>
+                            <constraint firstItem="Pep-f5-JTw" firstAttribute="height" secondItem="fVx-Xg-YEc" secondAttribute="height" id="w0e-Xb-Q3D"/>
                             <constraint firstItem="fVx-Xg-YEc" firstAttribute="centerX" secondItem="ELU-rn-Mcr" secondAttribute="centerX" id="wcs-3b-jVm"/>
                         </constraints>
                     </view>
