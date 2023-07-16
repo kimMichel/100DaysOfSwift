@@ -18,3 +18,8 @@ Os próximos três projetos que estamos analisando irão aprimorar ainda mais su
 
 4. Projeto 04
 5. Projeto 05
+6. Projeto 06
+
+## Codable, Buttons e GCD
+
+Os próximos três projetos que iremos construir são projetos nos quais você aprenderá sobre alguns dos tópicos mais importantes no desenvolvimento iOS: trabalhar com dados da internet e aproveitar o potencial bruto dos dispositivos iOS.
