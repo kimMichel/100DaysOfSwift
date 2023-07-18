@@ -22,6 +22,7 @@ class ViewController: UITableViewController {
                     self?.parse(json: data)
                 }
             }
+            self?.showError()
         }
     }
     
@@ -30,7 +31,19 @@ class ViewController: UITableViewController {
         
         if let jsonPetitions = try? decoder.decode(Petitions.self, from: json) {
             petitions = jsonPetitions.results
-            tableView.reloadData()
+            
+            DispatchQueue.main.async { [weak self] in
+                self?.tableView.reloadData()
+            }
+            
+        }
+    }
+    
+    func showError() {
+        DispatchQueue.main.async { [weak self] in
+            let ac = UIAlertController(title: "Loading Error", message: "There was a problem loading the feed; please check yout connection and try again.", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .default))
+            self?.present(ac, animated: true)
         }
     }
     
