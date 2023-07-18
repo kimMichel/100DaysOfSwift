@@ -63,12 +63,16 @@ class ViewController: UIViewController {
         let submit = UIButton(type: .system)
         submit.translatesAutoresizingMaskIntoConstraints = false
         submit.setTitle("SUBMIT", for: .normal)
+        submit.layer.borderWidth = 1
+        submit.layer.borderColor = UIColor.lightGray.cgColor
         submit.addTarget(self, action: #selector(submitTapped), for: .touchUpInside)
         view.addSubview(submit)
         
         let clear = UIButton(type: .system)
         clear.translatesAutoresizingMaskIntoConstraints = false
         clear.setTitle("CLEAR", for: .normal)
+        clear.layer.borderWidth = 1
+        clear.layer.borderColor = UIColor.lightGray.cgColor
         clear.addTarget(self, action: #selector(clearTapped), for: .touchUpInside)
         view.addSubview(clear)
         
@@ -89,12 +93,14 @@ class ViewController: UIViewController {
             currentAnswer.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             currentAnswer.widthAnchor.constraint(equalTo: view.layoutMarginsGuide.widthAnchor, multiplier: 0.5),
             currentAnswer.topAnchor.constraint(equalTo: cluesLabel.bottomAnchor, constant: 20),
-            submit.topAnchor.constraint(equalTo: currentAnswer.bottomAnchor),
+            submit.topAnchor.constraint(equalTo: currentAnswer.bottomAnchor, constant: 20),
             submit.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: -100),
             submit.heightAnchor.constraint(equalToConstant: 44),
+            submit.widthAnchor.constraint(equalToConstant: 88),
             clear.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 100),
             clear.centerYAnchor.constraint(equalTo: submit.centerYAnchor),
             clear.heightAnchor.constraint(equalToConstant: 44),
+            clear.widthAnchor.constraint(equalToConstant: 88),
             buttonsView.widthAnchor.constraint(equalToConstant: 750),
             buttonsView.heightAnchor.constraint(equalToConstant: 320),
             buttonsView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -150,6 +156,10 @@ class ViewController: UIViewController {
                 ac.addAction(UIAlertAction(title: "Lets Go!", style: .default, handler: levelUp))
                 present(ac, animated: true)
             }
+        } else {
+            let ac = UIAlertController(title: "Wrong answer!", message: "Answer: \(answerText) is not matched.", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "Ok", style: .default, handler: clearAnswer))
+            present(ac, animated: true)
         }
     }
     
@@ -162,6 +172,16 @@ class ViewController: UIViewController {
         for button in letterButtons {
             button.isHidden = false
         }
+    }
+    
+    func clearAnswer(action: UIAlertAction) {
+        currentAnswer.text = ""
+        
+        for button in activatedButtons {
+            button.isHidden = false
+        }
+        
+        activatedButtons.removeAll()
     }
     
     @objc func clearTapped(_ sender: UIButton) {
