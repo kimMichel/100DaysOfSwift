@@ -26,3 +26,10 @@ Os próximos três projetos que iremos construir são projetos nos quais você a
 
 7. Projeto 07
 8. Projeto 08
+9. Projeto 09
+
+## A whole new world
+
+Os próximos três projetos que faremos são marcadamente diferentes dos nove anteriores - você aprenderá sobre a criação de grades em vez de tabelas, aprenderá como criar jogos 2D de alta performance usando o SpriteKit e, finalmente, aprenderá como salvar dados do usuário.
+
+10. Projeto 10
