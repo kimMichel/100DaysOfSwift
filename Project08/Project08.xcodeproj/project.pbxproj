@@ -13,6 +13,8 @@
 		1EAB252F2A64CFF50075C40A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB252D2A64CFF50075C40A /* Main.storyboard */; };
 		1EAB25312A64CFF70075C40A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB25302A64CFF70075C40A /* Assets.xcassets */; };
 		1EAB25342A64CFF70075C40A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB25322A64CFF70075C40A /* LaunchScreen.storyboard */; };
+		1EAB253D2A662BE70075C40A /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB253B2A662BE70075C40A /* level1.txt */; };
+		1EAB253E2A662BE70075C40A /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB253C2A662BE70075C40A /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1EAB25302A64CFF70075C40A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EAB25332A64CFF70075C40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EAB25352A64CFF70075C40A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAB253B2A662BE70075C40A /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		1EAB253C2A662BE70075C40A /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				1EAB252D2A64CFF50075C40A /* Main.storyboard */,
 				1EAB25302A64CFF70075C40A /* Assets.xcassets */,
 				1EAB25322A64CFF70075C40A /* LaunchScreen.storyboard */,
+				1EAB253B2A662BE70075C40A /* level1.txt */,
+				1EAB253C2A662BE70075C40A /* level2.txt */,
 				1EAB25352A64CFF70075C40A /* Info.plist */,
 			);
 			path = Project08;
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EAB253E2A662BE70075C40A /* level2.txt in Resources */,
 				1EAB25342A64CFF70075C40A /* LaunchScreen.storyboard in Resources */,
+				1EAB253D2A662BE70075C40A /* level1.txt in Resources */,
 				1EAB25312A64CFF70075C40A /* Assets.xcassets in Resources */,
 				1EAB252F2A64CFF50075C40A /* Main.storyboard in Resources */,
 			);
